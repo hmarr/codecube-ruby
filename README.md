@@ -1,4 +1,4 @@
-# Codecube Ruby Client Library
+# CodeCube Ruby Client Library
 
 [![Gem Version](https://badge.fury.io/rb/codecube.png)](http://badge.fury.io/rb/codecube)
 
