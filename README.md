@@ -1,6 +1,6 @@
 # Codecube Ruby Client Library
 
-[![Gem Version](https://badge.fury.io/rb/codecube@2x.png)](http://badge.fury.io/rb/codecube)
+[![Gem Version](https://badge.fury.io/rb/codecube.png)](http://badge.fury.io/rb/codecube)
 
 A Ruby client library for the codecube.io API
 
