@@ -1,0 +1,31 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://api.codecube.io/sync-run/
+    body:
+      encoding: UTF-8
+      string: '{"code":"puts 1","language":"ruby"}'
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Authorization:
+      - invalid-api-key
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Content-Type:
+      - text/plain; charset=utf-8
+      Date:
+      - Wed, 16 Jul 2014 22:47:51 GMT
+      Content-Length:
+      - '34'
+    body:
+      encoding: UTF-8
+      string: |
+        invalid authorization credentials
+    http_version: 
+  recorded_at: Wed, 16 Jul 2014 22:47:47 GMT
+recorded_with: VCR 2.9.2
